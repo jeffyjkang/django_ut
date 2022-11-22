@@ -1,0 +1,9 @@
+run virtual env, then run command to install django:
+python -m pip install Django
+
+
+start project init:
+django-admin startproject smartnotes .
+python manage.py runserver
+
+django-admin startapp home
