@@ -10,3 +10,9 @@ django-admin startapp home
 
 not actual html, but django template, (dtl)
 templates -> interpreter -> html
+
+migrations (auth out of box):
+python manage.py migrate
+
+create superuser:
+python mange.py createsuperuser
