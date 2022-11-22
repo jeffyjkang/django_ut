@@ -7,3 +7,6 @@ django-admin startproject smartnotes .
 python manage.py runserver
 
 django-admin startapp home
+
+not actual html, but django template, (dtl)
+templates -> interpreter -> html
