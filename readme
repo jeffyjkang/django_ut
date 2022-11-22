@@ -16,3 +16,18 @@ python manage.py migrate
 
 create superuser:
 python mange.py createsuperuser
+
+
+django (under the hood uses ORM)
+class -> makeMigrations -> migrate -> db table
+
+django-admin startapp notes
+python manage.py makemigrations
+python manage.py migrate
+
+add to admin interface in the admin.py file
+
+django shell:
+python manage.py shell
+from notes.model import Notes
+-> query
