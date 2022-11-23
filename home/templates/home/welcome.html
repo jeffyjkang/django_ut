@@ -1,9 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
 <html>
   <header>
     <title>SmartNotes!</title>
     <body>
       <h1>Welcome to SmartNotes!</h1>
       <p>Today is {{today}}</p>
+      <a href='{% url 'notes.list' %}' class='btn btn-primary'>Checkout smartnotes</a>
     </body>
   </header>
 </html>
+{% endblock %}
